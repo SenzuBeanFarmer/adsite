@@ -1,0 +1,112 @@
+
+
+body
+{
+    
+    margin:0; 
+    padding: 0;
+    background-color: wheat;
+}
+
+h1
+{
+    font-family: "Ubuntu";
+    color: white;
+    padding-left: 1.5vw;
+    margin: 0;
+}
+h3
+{
+    font-family: "Ubuntu";
+    color: white;
+    margin: 0;
+}
+
+
+
+a
+{
+    font-family: "Ubuntu";
+}
+
+a:link
+{
+    color:#00ff4c;
+}
+a:visited 
+{
+    color: #ffd900;    
+}
+
+
+header
+{
+    width: 100vw;
+    height: 12vh;
+    background-color: blueviolet;
+    background-image: url(Break_Wasteland_DBZ_Ep_06_001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow:hidden;
+    padding: 0; 
+    margin: 0;
+    
+
+}
+
+div#tracker
+{
+
+    margin: auto;
+    float: left;
+    position: absolute;
+   
+
+ 
+}
+
+.inline-block-child {
+    display: inline-block;
+  
+  }
+
+
+div#frontheaderdiv
+{
+    width: 100vw;
+    height: 7vh;
+
+  background-color: rgba(32, 32, 32, 0.575);  
+    text-align: center;
+
+}
+
+
+.navbar
+{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgba(32, 32, 32, 0.575);  
+    text-align: center;
+
+}
+
+.navbar ul
+{
+    /*Margins are weird, adjust when adding new links*/
+    padding-top: 10px;
+    list-style-type: none; 
+    display: inline-block;
+
+    margin:auto;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+.navbar li
+{
+    float: left;
+}
